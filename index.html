@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is a real estate website only using flexbox and responsive on all device.">
+    <title>Real Estate Website</title>
+    <link rel="stylesheet" href="./style1.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">Real Estate</div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Listings</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <h1>Find Your Dream Home</h1>
+      </section>
+      <section class="about">
+        <h2>About Us</h2>
+        <div class="about-content">
+          <img src="https://images.unsplash.com/photo-1486607303850-bc051a4ffad4?q=80&w=1474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="About Us" />
+          <div class="about-text">
+            <p>
+              Welcome to Real Estate, your number one source for all things real
+              estate. We're dedicated to giving you the very best properties,
+              with a focus on reliability, customer service, and uniqueness.
+            </p>
+            <p>
+              Founded in 2024, Real Estate has come a long way from its
+              beginnings. When we first started out, our passion for helping
+              people find their dream homes drove us to do intense research and
+              gave us the impetus to turn hard work and inspiration into a
+              booming online platform. We now serve customers all over the
+              country and are thrilled to be a part of the fair trade wing of
+              the real estate industry.
+            </p>
+            <p>
+              We hope you enjoy our services as much as we enjoy offering them
+              to you. If you have any questions or comments, please don't
+              hesitate to contact us.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="properties">
+        <h2>Featured Properties</h2>
+        <div class="property-list">
+          <div class="property-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzMFikTWDbX3Tm6A74pxMMxrpQ-rsVUccqEg&s" alt="House 1" />
+            <h3>Beautiful Family House</h3>
+            <p>$500,000</p>
+          </div>
+          <div class="property-item">
+            <img src="https://media.istockphoto.com/id/1165384568/photo/europe-modern-complex-of-residential-buildings.webp?b=1&s=170667a&w=0&k=20&c=-D_1KGbmVkceUNHFnFaVvEMN0_x7MjhPdOZuz0kKtKY=" alt="House 2" />
+            <h3>Modern Apartment</h3>
+            <p>$350,000</p>
+          </div>
+          <div class="property-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTat7rAccDWxeUe0xAaVp1KouK0BM7nDEGy9A&s" alt="House 3" />
+            <h3>Cozy Cottage</h3>
+            <p>$250,000</p>
+          </div>
+          <div class="property-item">
+            <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZGlmZmVyZW50JTIwcmVhbCUyMGVzdGF0ZSUyMGRlc3RpbmF0aW9ufGVufDB8fDB8fHww" alt="House 4" />
+            <h3>Luxury Villa</h3>
+            <p>$1,200,000</p>
+          </div>
+          <div class="property-item">
+            <img src="https://media.istockphoto.com/id/863542630/photo/summer-sunset-with-a-red-barn-in-rural-montana-and-rocky-mountains.webp?b=1&s=170667a&w=0&k=20&c=m9gz2sscNeOj6Wh9ohD0ScSs59k54VQl6hpthHDR27E=" alt="House 5" />
+            <h3>Rustic Farmhouse</h3>
+            <p>$750,000</p>
+          </div>
+          <div class="property-item">
+            <img src="https://media.istockphoto.com/id/2129373307/photo/bay-of-cadiz-and-city-view-from-above.webp?b=1&s=170667a&w=0&k=20&c=YHisKs4RrC1avAgsRKeu8VY1o7nGOrHAYu4e2MC8Occ=" alt="House 6" />
+            <h3>Urban Loft</h3>
+            <p>$400,000</p>
+          </div>
+        </div>
+      </section>
+      <section class="contact">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required class="message"></textarea>
+          </div>
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Real Estate. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
